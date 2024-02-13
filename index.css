@@ -1,0 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*ESTILOS*/
+body {
+    background-color: #F2F5F7;
+}
+
+.container {
+	width: 100%;
+	margin: 0%;
+}
+
+.headerPrincipal {
+    background-color: #3a6d64;
+	padding: 2px 0;
+}
+
+.headerPrincipal-titulo img{
+    height: 100px;
+	margin: 2%;
+	position: relative;
+}
+
+.headerPrincipal-titulo a{
+	font-weight: bold;
+	font-size: 2.5em;
+    margin-bottom: 20px;
+    text-decoration: none;
+	color: inherit;
+    display: block;
+    color: #ffffff;
+    font-family: 'Montserrat',Arial,sans-serif;
+}
+
+.headerPrincipal-nav-menu {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #000000;
+	background-color: #ffffff;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+    font-weight: bold;
+    font-family: 'Inter',Arial,sans-serif;
+}
+
+.headerPrincipal-nav-menu:hover{
+    color: #e2a62d;
+    text-decoration:  underline;
+}
+
+/*FLEX BOX*/
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerPrincipal-nav {
+    display: flex;
+}
