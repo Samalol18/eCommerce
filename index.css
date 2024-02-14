@@ -96,6 +96,12 @@ body {
     text-decoration:  underline;
 }
 
+footer{
+	text-align: center;
+	background: #3a6d64;
+	padding: 40px;
+}
+
 /*FLEX BOX*/
 .headerPrincipal .container{
     display: flex;
