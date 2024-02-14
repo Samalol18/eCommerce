@@ -100,6 +100,29 @@ footer{
 	text-align: center;
 	background: #3a6d64;
 	padding: 40px;
+	display: center;
+    justify-content: space-between;
+}
+
+.footerPrincipal-p{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.footerPrincipal-img{
+    margin: 20px;
+	height: 200px
+}
+
+.footerPrincipal-text{
+	color: #ffffff;
+    font-family: 'Montserrat',Arial,sans-serif;
+}
+
+.footerPrincipal-text:hover{
+    color: #e2a62d;
+    text-decoration:  underline;
 }
 
 /*FLEX BOX*/
