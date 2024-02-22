@@ -48,6 +48,10 @@ table {
 }
 
 /*ESTILOS*/
+html{
+	scroll-behavior: smooth;
+}
+
 body {
     background-color: #F2F5F7;
 }
@@ -126,12 +130,6 @@ body {
 }
 
 .containersPrincipal{
-	/*width: 100%;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: sans-serif;*/
 	display: flex;
     flex-wrap: wrap;
 	
@@ -140,7 +138,6 @@ body {
 .containers{
 	width: 100%;
 	display: flex;
-	/*max-width: 2000px;*/
 }
 
 .card{
@@ -194,6 +191,15 @@ body {
 .card .contenido a:hover{
 	background: #e2a62d;
 	color: #ffffff;
+}
+
+.contacto{
+	text-align: center;
+	padding: 10px;
+}
+
+.contacto a {
+	font-size: 20px;
 }
 
 footer{
