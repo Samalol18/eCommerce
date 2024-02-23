@@ -69,10 +69,13 @@ function loadHtml(){
         const {title,price, amount, id} = product;
         const row = document.createElement('div');
         row.classList.add('contenido')
-        row.innerHTML = `<h3>Producto ${title}</h3>
-        <p>Precio Unidad ${price}</p>
-        <h6>Cantidad ${amount}</h6>
-        <span class="delete-product" data-id=${id}>X</span>
+        row.innerHTML = `<span class="delete-product" data-id=${id}>X</span>
+        <h3 class = "prueba">Producto</h3>
+        ${title}
+        <p class = "prueba">Precio Unidad</p>
+        ${price}
+        <h6 class = "prueba">Cantidad</h6>
+        ${amount}
         `;
         containerBuyCart.appendChild(row);
         priceTotal.innerHTML = totalCard;

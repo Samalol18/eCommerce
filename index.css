@@ -175,6 +175,7 @@ body {
 .card .contenido h3{
 	font-weight: 400;
 	margin-bottom: 15px;
+	font-family: "Nunito Sans", sans-serif;
 }
 
 .card .contenido a{
@@ -186,6 +187,7 @@ body {
 	border: 1px solid #e2a62d;
 	border-radius: 4px;
 	transition: all 400ms ease;
+	font-family: "Nunito Sans", sans-serif;
 }
 
 .card .contenido a:hover{
@@ -196,10 +198,45 @@ body {
 .contacto{
 	text-align: center;
 	padding: 10px;
+	margin: 5%;
 }
 
 .contacto a {
 	font-size: 20px;
+}
+
+.carritoContainer{
+	text-align: center;
+	margin: 2%;
+	display: flex;
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.prueba{
+	margin: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.delete-product{
+	font-size: 20px;
+	cursor:pointer;
+	color: #e2a62d;
+	border: 1px #e2a62d;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	padding: 4px;
+}
+
+.delete-product:hover{
+	color: #ffffff;
+	background: #e2a62d;
+}
+
+.total{
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Inter',Arial,sans-serif;
 }
 
 footer{
